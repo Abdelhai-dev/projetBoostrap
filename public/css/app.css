@@ -12069,4 +12069,21 @@ textarea {
   margin-left: 60px;
 }
 
+.etape7 {
+  background-color: #1d1b17;
+  width: 100%;
+  height: 100vh;
+}
+
+.enfant12 {
+  margin-left: 50px;
+}
+
+.enfant13 {
+  margin-left: 40px;
+}
+.enfant13 img {
+  width: 24%;
+}
+
 /*# sourceMappingURL=app.css.map */
