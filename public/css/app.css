@@ -12145,4 +12145,10 @@ i {
   width: 765px;
 }
 
+.btnf {
+  position: relative;
+  left: 120px;
+  bottom: 70px;
+}
+
 /*# sourceMappingURL=app.css.map */
