@@ -11877,7 +11877,12 @@ nav {
   padding: 0;
   z-index: 3;
 }
-nav li:hover {
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
   color: #cda45d;
 }
 
@@ -11937,8 +11942,8 @@ span {
 .video-play-button {
   position: relative;
   z-index: 10;
-  top: 100%;
-  left: 61%;
+  bottom: 80px;
+  left: 700px;
   transform: translateX(-50%) translateY(-50%);
   box-sizing: content-box;
   display: block;
@@ -12130,6 +12135,8 @@ textarea {
   width: 90%;
   height: 150px;
   margin: 30px;
+  margin-left: 75px;
+  padding: 10px;
 }
 
 .enfant11 {
@@ -12173,9 +12180,42 @@ textarea {
   padding-top: 50px;
 }
 
-.imgb {
+.cards {
   width: 350px;
-  margin-top: 50px;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cards-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cards-body {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: rgba(7, 10, 11, 0.631372549);
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.cards:hover .cards-body {
+  right: 0;
+}
+
+.cards-title {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 500;
 }
 
 .etape9 {
@@ -12237,6 +12277,7 @@ i {
 .parent20 {
   margin: 30px;
   padding: 10px;
+  gap: 5px;
 }
 
 .parent21 {
@@ -12256,12 +12297,10 @@ i {
   left: 100px;
 }
 
-.ss {
-  margin-left: 50px;
-}
-
 footer {
+  height: 60px;
   background-color: black;
+  padding: 20px;
 }
 
 .carouseldiv {
@@ -12274,6 +12313,23 @@ footer {
 
 .h33 {
   color: #cda45d;
+}
+
+input {
+  border: 1px solid grey;
+}
+
+.fin {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  left: 350px;
+}
+
+.xx {
+  position: relative;
+  bottom: 50px;
 }
 
 /*# sourceMappingURL=app.css.map */
