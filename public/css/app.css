@@ -12151,4 +12151,20 @@ i {
   bottom: 70px;
 }
 
+.etape11 {
+  background-color: #1d1b17;
+  width: 100%;
+  height: 100vh;
+}
+
+.parent20 {
+  margin: 30px;
+  padding: 10px;
+}
+
+.parent21 {
+  display: flex;
+  margin: 20px;
+}
+
 /*# sourceMappingURL=app.css.map */
