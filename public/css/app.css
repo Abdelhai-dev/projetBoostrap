@@ -12284,7 +12284,8 @@ i {
 
 .texA {
   width: 765px;
-  padding-right: 100px;
+  position: relative;
+  right: 40px;
 }
 
 .btnf {
