@@ -47,35 +47,30 @@
                     <button type="button" class="btn0 btn btn-outline-warning rounded-pill text-white">BOOK A
                         TABLE</button>
                 </div>
-                
-                    <!-- Button trigger modal -->
-                    <button type="" class="btn video-play-button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-play-fill text-white"></i>
-                    </button>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="embed-responsive embed-responsive-16by9 auto-play">
-                                        <!-- <video width="320" height="240" controls>
-                                            <source src="https://www.youtube.com/watch?v=kRCH8kD1GD0" type="video/mp4">
-                                        </video> -->
-                                        <iframe src="https://www.youtube.com/embed/zisxaUawXYM"  allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                                <div class="modal-footer"> 
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button> 
+                <!-- Button trigger modal -->
+                <button type="" class="btn video-play-button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                        class="bi bi-play-fill text-white"></i>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade myPlay" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe width="560" height="315"
+                                        src="https://www.youtube.com/embed/F3zw1Gvn4Mk?si=kvN8KVzFXHBqNut_&amp;controls=0"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
     </section>
     <section id="abouts" class="etape2">
         <div class="parent2 d-flex ">
@@ -138,29 +133,24 @@
             <p class="fs-3 text-white">MENU</p>
             <p class="p3 fs-1">Check Our Tasty Menu</p>
         </div>
-        <div class="parent6 text-white fs-3 d-flex justify-content-center">
-            <p class="p5">All</p>
-            <p>Starters</p>
-            <p>Salads</p>
-            <p>Speciality</p>
-        </div>
-        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+       
+        <ul class="vv nav nav-pills mb-3 text-white gap-5 justify-content-center" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                <P class="active fs-3" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</P>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                <P class="fs-3" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Starters</P>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+                <P class="fs-3" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Salads</P>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled"
+                <P class="fs-3" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled"
                     type="button" role="tab" aria-controls="pills-disabled" aria-selected="false"
-                    disabled>Disabled</button>
+                    disabled>Speciality</P>
             </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
@@ -280,148 +270,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
-                    tabindex="0">
-                    <div class="enfant6 d-flex">
-                        <div class="mx-5">
-                            <img class="img3 rounded-circle border border-5 border-secondary"
-                                src="./public/img/img/menu/mozzarella.jpg" alt="">
-                        </div>
-                        <div>
-                            <p class="p7 fs-4 text-white">Mozzarella Stick .................................
-                                <span>$4.95</span>
-                            </p>
-                            <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
-                        </div>
-                    </div>
-                    <div class="enfant6 d-flex">
-                        <div class="mx-5">
-                            <img class="img3 rounded-circle border border-5 border-secondary"
-                                src="./public/img/img/menu/spinach-salad.jpg" alt="">
-                        </div>
-                        <div>
-                            <p class="p7 fs-4 text-white">Spinash Salad ....................................
-                                <span>$9.95</span>
-                            </p>
-                            <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
-                    tabindex="0">
-                    <div class="enfant6 d-flex">
-                        <div class="mx-5">
-                            <img class="img3 rounded-circle border border-5 border-secondary"
-                                src="./public/img/img/menu/mozzarella.jpg" alt="">
-                        </div>
-                        <div>
-                            <p class="p7 fs-4 text-white">Mozzarella Stick .................................
-                                <span>$4.95</span>
-                            </p>
-                            <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
-                        </div>
-                    </div>
-                    <div class="enfant6 d-flex">
-                        <div class="mx-5">
-                            <img class="img3 rounded-circle border border-5 border-secondary"
-                                src="./public/img/img/menu/spinach-salad.jpg" alt="">
-                        </div>
-                        <div>
-                            <p class="p7 fs-4 text-white">Spinash Salad ....................................
-                                <span>$9.95</span>
-                            </p>
-                            <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
-                    tabindex="0">...</div>
             </div>
-            <!-- <div class="enfant6 d-flex">
-                    <div class="mx-5">
-                        <img class="img3 rounded-circle border border-5 border-secondary"
-                            src="./public/img/img/menu/lobster-bisque.jpg" alt="">
-                    </div>
-                    <div>
-                        <p class="p7 fs-4 text-white">Lobster Bisque .............................. <span>$5.95</span>
-                        </p>
-                        <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
-                    </div>
-                </div>
-                <div class="enfant6 d-flex">
-                    <div class="mx-5">
-                        <img class="img3 rounded-circle border border-5 border-secondary"
-                            src="./public/img/img/menu/cake.jpg" alt="">
-                    </div>
-                    <div>
-                        <p class="p7 fs-4 text-white">Crab Cake .......................................
-                            <span>$7.95</span>
-                        </p>
-                        <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
-                    </div>
-                </div>
-                <div class="enfant6 d-flex">
-                    <div class="mx-5">
-                        <img class="img3 rounded-circle border border-5 border-secondary"
-                            src="./public/img/img/menu/tuscan-grilled.jpg" alt="">
-                    </div>
-                    <div>
-                        <p class="p7 fs-4 text-white">Tuscan Grilled ................................ <span>$9.95</span>
-                        </p>
-                        <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
-                    </div>
-                </div>
-                <div class="enfant6 d-flex">
-                    <div class="mx-5">
-                        <img class="img3 rounded-circle border border-5 border-secondary"
-                            src="./public/img/img/menu/greek-salad.jpg" alt="">
-                    </div>
-                    <div>
-                        <p class="p7 fs-4 text-white">Greek Salad ....................................
-                            <span>$9.95</span>
-                        </p>
-                        <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
-                    </div>
-                </div>
-                <div class="enfant6 d-flex">
-                    <div class="mx-5">
-                        <img class="img3 rounded-circle border border-5 border-secondary"
-                            src="./public/img/img/menu/lobster-roll.jpg" alt="">
-                    </div>
-                    <div>
-                        <p class="p7 fs-4 text-white">Lobster Roll ....................................
-                            <span>$5.95</span>
-                        </p>
-                        <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="parent7">
-                <div class="enfant6 d-flex">
-                    <div class="mx-5">
-                        <img class="img3 rounded-circle border border-5 border-secondary"
-                            src="./public/img/img/menu/bread-barrel.jpg" alt="">
-                    </div>
-                    <div>
-                        <p class="p7 fs-4 text-white">Bread Barrel .......................................
-                            <span>$6.95</span>
-                        </p>
-                        <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
-                    </div>
-                </div>
-                <div class="enfant6 d-flex">
-                    <div class="mx-5">
-                        <img class="img3 rounded-circle border border-5 border-secondary"
-                            src="./public/img/img/menu/caesar.jpg" alt="">
-                    </div>
-                    <div>
-                        <p class="p7 fs-4 text-white">Caesar Selection ................................
-                            <span>$7.95</span>
-                        </p>
-                        <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
-                    </div>
-                </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">
                 <div class="enfant6 d-flex">
                     <div class="mx-5">
                         <img class="img3 rounded-circle border border-5 border-secondary"
@@ -445,9 +296,66 @@
                         </p>
                         <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
                     </div>
-                </div> -->
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                tabindex="0">
+                <div class="enfant6 d-flex">
+                    <div class="mx-5">
+                        <img class="img3 rounded-circle border border-5 border-secondary"
+                            src="./public/img/img/menu/mozzarella.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="p7 fs-4 text-white">Mozzarella Stick .................................
+                            <span>$4.95</span>
+                        </p>
+                        <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
+                    </div>
+                </div>
+                <div class="enfant6 d-flex">
+                    <div class="mx-5">
+                        <img class="img3 rounded-circle border border-5 border-secondary"
+                            src="./public/img/img/menu/spinach-salad.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="p7 fs-4 text-white">Spinash Salad ....................................
+                            <span>$9.95</span>
+                        </p>
+                        <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+            tabindex="0">
+            <div class="enfant6 d-flex">
+                <div class="mx-5">
+                    <img class="img3 rounded-circle border border-5 border-secondary"
+                        src="./public/img/img/menu/mozzarella.jpg" alt="">
+                </div>
+                <div>
+                    <p class="p7 fs-4 text-white">Mozzarella Stick .................................
+                        <span>$4.95</span>
+                    </p>
+                    <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
+                </div>
+            </div>
+            <div class="enfant6 d-flex">
+                <div class="mx-5">
+                    <img class="img3 rounded-circle border border-5 border-secondary"
+                        src="./public/img/img/menu/spinach-salad.jpg" alt="">
+                </div>
+                <div>
+                    <p class="p7 fs-4 text-white">Spinash Salad ....................................
+                        <span>$9.95</span>
+                    </p>
+                    <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
+                </div>
+            </div>
         </div>
+
+
         </div>
+
 
     </section>
 
@@ -662,7 +570,8 @@
                 <div class="cards-body">
                     <h1 class="cards-title">New-York</h1>
                     <p class="cards-sub-title">paname city</p>
-                    <p class="cards-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, debitis.</p>
+                    <p class="cards-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, debitis.
+                    </p>
                 </div>
             </div>
             <div class="cards">
@@ -670,7 +579,8 @@
                 <div class="cards-body">
                     <h1 class="cards-title">New-York</h1>
                     <p class="cards-sub-title">paname city</p>
-                    <p class="cards-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, debitis.</p>
+                    <p class="cards-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, debitis.
+                    </p>
                 </div>
             </div>
             <div class="cards">
@@ -678,9 +588,10 @@
                 <div class="cards-body">
                     <h1 class="cards-title">New-York</h1>
                     <p class="cards-sub-title">paname city</p>
-                    <p class="cards-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, debitis.</p>
+                    <p class="cards-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, debitis.
+                    </p>
                 </div>
-            </div>                            
+            </div>
         </div>
         <div class="parent13">
             <p class="text-white">CONTACT</p>
@@ -775,15 +686,16 @@
             <button type="button" class="btnf btn btn-outline-warning rounded-pill text-white ">SEND MESSAGE</button>
         </div>
     </section>
+
     <section class="etape11">
-        <div class="Gparent19 d-flex justify-content-center">
-            <div class="parent19 d-flex py-5 px-5">
-                <div class="xx d-flex flex-column align-items-center justify-content-center">
-                    <p class="fs-1 text-white mx-3 py-2">CBIENBON</p>
-                    <P class="fs-5 text-white py-2">A108 Adam Street <br> NY 535022, USA</P>
-                    <p class="fs-5 text-white mx-3 py-2"><span>Phone:</span> +1 5589 55488 55 <br> <span>Email:</span>
-                        info~example.com</p>
-                    <div class="parent20 d-flex">
+        <div class="Gparent19 d-flex">
+            <div class="parent19 d-flex justify-content-around">
+                <div class="xx d-flex flex-column align-items-start mx-5">
+                    <p class="fs-1 text-white ">CBIENBON</p>
+                    <P class="fs-6 text-white ">A108 Adam Street <br> NY 535022, USA</P>
+                    <p class="fs-6 text-white"><span>Phone:</span> +1 5589 55488 55 <br> <span>Email:</span>
+                        info@example.com</p>
+                    <div class="parent20 d-flex align-items-start">
                         <i class="bi bi-twitter"></i>
                         <i class="bi bi-facebook"></i>
                         <i class="bi bi-instagram"></i>
@@ -793,29 +705,29 @@
                     </div>
                 </div>
                 <div class="parent21">
-                    <div class="mx-3">
+                    <div class="mx-5">
                         <h3 class="text-white fs-2">Useful Links</h3>
-                        <p class="text-white fs-5 py-2"><span>></span> Home</p>
-                        <p class="text-white fs-5 py-2"><span>></span> About Us</p>
-                        <p class="text-white fs-5 py-2"><span>></span> Service</p>
-                        <p class="text-white fs-5 py-2"><span>></span> Terms of service</p>
-                        <p class="text-white fs-5 py-2"><span>></span> Privacy policy</p>
+                        <p class="text-white fs-6 "><span>></span> Home</p>
+                        <p class="text-white fs-6 "><span>></span> About Us</p>
+                        <p class="text-white fs-6"><span>></span> Service</p>
+                        <p class="text-white fs-6"><span>></span> Terms of service</p>
+                        <p class="text-white fs-6"><span>></span> Privacy policy</p>
                     </div>
                 </div>
                 <div class="parent21">
-                    <div class="mx-3">
+                    <div class="mx-5">
                         <h3 class="text-white fs-2">Our Services</h3>
-                        <p class="text-white fs-5 py-2"><span>></span> Web Design</p>
-                        <p class="text-white fs-5 py-2"><span>></span> Web Developement</p>
-                        <p class="text-white fs-5 py-2"><span>></span> Product Management</p>
-                        <p class="text-white fs-5 py-2"><span>></span> Marketing</p>
-                        <p class="text-white fs-5 py-2"><span>></span> Graphic Design</p>
+                        <p class="text-white fs-6"><span>></span> Web Design</p>
+                        <p class="text-white fs-6"><span>></span> Web Developement</p>
+                        <p class="text-white fs-6"><span>></span> Product Management</p>
+                        <p class="text-white fs-6"><span>></span> Marketing</p>
+                        <p class="text-white fs-6"><span>></span> Graphic Design</p>
                     </div>
                 </div>
                 <div class="parent22 py-3 px-5">
                     <div class="ss">
                         <h3 class="text-white fs-2 py-2">Our Newsletter</h3>
-                        <p class="text-white fs-5 py-2">Tamen quem nulla quae legam multos aute <br> sint culpa legam
+                        <p class="text-white fs-6 py-2">Tamen quem nulla quae legam multos aute <br> sint culpa legam
                             noster magna</p>
                     </div>
                     <div class="d-flex justify-content-center">
@@ -829,8 +741,8 @@
         </div>
 
     </section>
-    
-    
+
+
     <footer class="d-flex justify-content-center text-white">
         <p>&copy; Copyright <span>CBIENBON.</span> All Rights Reserved</p>
         <div class="fin">

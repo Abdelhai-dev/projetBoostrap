@@ -11939,6 +11939,10 @@ span {
   margin-bottom: 20px;
 }
 
+.modal-backdrop {
+  display: none;
+}
+
 .video-play-button {
   position: relative;
   z-index: 10;
@@ -12004,6 +12008,16 @@ span {
   100% {
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
     opacity: 0;
+  }
+}
+@media (max-width-768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .parent1 {
+    display: flex;
+    flex-direction: column;
   }
 }
 .etape2 {
@@ -12104,6 +12118,14 @@ span {
   margin-top: 100px;
 }
 
+.active {
+  color: #cda45d;
+}
+
+.vv {
+  margin-top: 100px;
+}
+
 .etape5 {
   width: 100%;
   height: 100vh;
@@ -12165,7 +12187,8 @@ textarea {
   scale: 1.2;
 }
 
-.Gparent13 {
+.parent13 {
+  padding-right: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12261,6 +12284,7 @@ i {
 
 .texA {
   width: 765px;
+  padding-right: 100px;
 }
 
 .btnf {
@@ -12273,11 +12297,14 @@ i {
 .etape11 {
   background-color: #1d1b17;
   width: 100%;
-  height: 100vh;
+  height: 500px;
+}
+
+.parent19 {
+  padding-top: 40px;
 }
 
 .parent20 {
-  margin: 30px;
   padding: 10px;
   gap: 5px;
 }
@@ -12336,7 +12363,7 @@ input {
 
 .xx {
   position: relative;
-  bottom: 50px;
+  top: 20px;
 }
 
 /*# sourceMappingURL=app.css.map */
