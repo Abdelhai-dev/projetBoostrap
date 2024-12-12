@@ -12156,6 +12156,7 @@ textarea {
 .enfant13 {
   width: 25%;
   overflow: hidden;
+  transition: 2s;
 }
 .enfant13 img {
   width: 100%;
@@ -12165,8 +12166,9 @@ textarea {
 }
 
 .Gparent13 {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .etape8 {
@@ -12293,8 +12295,13 @@ i {
 }
 
 .PARENT22 {
+  width: 100%;
   position: relative;
-  left: 100px;
+  left: 200px;
+}
+
+.ss {
+  margin-left: 40px;
 }
 
 footer {
