@@ -11890,6 +11890,11 @@ a:hover {
   font-size: 100px;
 }
 
+.bi {
+  z-index: 50;
+  position: relative;
+}
+
 h1, .h1 {
   font-size: 5rem;
   font-weight: 700;
