@@ -12216,6 +12216,7 @@ textarea {
 }
 .enfant13 img {
   width: 100%;
+  transition: 1s;
 }
 .enfant13 img:hover {
   scale: 1.2;
