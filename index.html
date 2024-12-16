@@ -11,14 +11,15 @@
 </head>
 
 <body>
+
+
     <section id="home" class="etape1">
         <div class="parent1 d-flex text-white">
-            <nav class="d-flex align-items-center ">
+            <nav class="d-flex align-items-center">
                 <div>
                     <a class="a1 container text-white fs-1 text-decoration-none" href="">CBIENBON</a>
                 </div>
                 <ul class="d-flex m-2">
-
                     <li class="list-unstyled me-5 fs-4"><a href="#home">Home</a></li>
                     <li class="list-unstyled me-5 fs-4"><a href="#abouts">About</a></li>
                     <li class="list-unstyled me-5 fs-4"><a href="#Menu">Menu</a></li>
@@ -28,14 +29,12 @@
                     <li class="list-unstyled me-5 fs-4"><a href="#Contact">Contact</a></li>
                 </ul>
                 <div class="btn1">
-                    <button type="button" class="btn2 btn btn-outline-warning rounded-pill text-white fs-4">BOOK A
-                        TABLE</button>
+                    <button type="button" class="btn2 btn btn-outline-warning rounded-pill text-white fs-4">BOOK A TABLE</button>
                 </div>
-
             </nav>
         </div>
         <div class="fils">
-            <div class="text-white">
+            <div class="ll text-white">
                 <h1>Welcome to <span>CBIENBON</span></h1>
                 <h2 class="h2-1">Delivering great food for than 18 years!</h2>
             </div>
@@ -44,8 +43,7 @@
                     <button type="button" class="btn btn-outline-warning rounded-pill text-white ">OUR MENU</button>
                 </div>
                 <div>
-                    <button type="button" class="btn0 btn btn-outline-warning rounded-pill text-white">BOOK A
-                        TABLE</button>
+                    <button type="button" class="btn0 btn btn-outline-warning rounded-pill text-white">BOOK A TABLE</button>
                 </div>
                 <div class="container">
                     <div class="icon-play row">
@@ -54,80 +52,79 @@
                             <span></span></a>
                     </div>
                 </div>
-
+    
                 <!-- Modal -->
                 <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                        <h5 class="modal-title" id="videoModalLabel">pop up</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="videoModalLabel">pop up</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/kRCH8kD1GD0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                            </div>
                         </div>
-                        <div class="modal-body">
-                        <div class="ratio ratio-16x9">
-                            <iframe src="https://www.youtube.com/embed/kRCH8kD1GD0"  allowfullscreen></iframe>
-                        </div>
-                        </div>
-                        <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                        </div>
-                    </div>
                     </div>
                 </div>
-
-
-               
-            </div>
+            </div> <!-- Ajouter cette fermeture de div -->
+        </div>
     </section>
+    
     <section id="abouts" class="etape2">
         <div class="parent2 d-flex ">
             <div class="enfant10 text-white m-4">
                 <p class="h1-1 fs-1">Voluptatem dignissimos provided quasis corporis voluptates sit assumenda.</p>
-
+    
                 <p class="p1 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ratione obcaecati
                     quam numquam voluptates assumenda possimus aliquam officiis ipsam voluptatum!</p>
-
+    
                 <p class="fs-5"><img class="imgi" src="./public/img/img/iconmonstr-check-mark-8-24.png" alt=""> Lorem
                     ipsum dolor sit amet consectetur adipisicing elit cric</p>
-
+    
                 <p class="fs-5"><img class="imgi" src="./public/img/img/iconmonstr-check-mark-8-24.png" alt=""> Lorem,
                     ipsum dolor sit amet consectetur adipisicing elit. Rem.</p>
-
+    
                 <p class="fs-5"><img src="./public/img/img/iconmonstr-check-mark-8-24.png" alt=""> Lorem ipsum dolor sit
                     amet consectetur, adipisicing elit. Fuga voluptate sunt, doloribus ut, nesciunt aliquid aut saepe
                     culpa natus ratione nisi delectus veritatis optio ipsum.</p>
-
+    
                 <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eligendi labore nobis
                     quis. Perferendis consequatur atque commodi tempora architecto iure recusandae porro, asperiores,
                     impedit vero praesentium eius autem, deserunt explicabo!</p>
-
             </div>
-            <div class="img1 m-5">
-                <img class="img2 img border border-5 border-secondary " src="./public/img/img/about.jpg " alt="">
+            <div class="img1 m-5 position-relative">
+                <div class="haut"></div>
+                <img class="img2 img border border-5 border-secondary " src="./public/img/img/about.jpg" alt="">
+                <div class="bas"></div>
             </div>
-        </div>
-
-
+        </div> <!-- Balise div manquante ici pour fermer 'parent2' -->
     </section>
+    
     <section id="menu" class="etape3">
-        <div class="parent3 ">
+        <div class="parent3">
             <p class="fs-3 p-5 text-white">WHY US </p>
             <p class="p2 fs-1 ">Why Choose Our Restaurant</p>
         </div>
-        <div class="parent4 d-flex justify-content-around">
-            <div class="enfant4">
+        <div class="parent4 d-flex justify-content-around flex-lg-row flex-column">
+            <div class="enfant4 w-100">
                 <p class="p3">01</p>
                 <h2 class="text-white">Lorem Ipsum</h2>
                 <p class="text-white fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium
                     praesentium impedit quasi velit ad</p>
             </div>
-            <div class="enfant4">
+            <div class="enfant4 w-100 mt-lg-0 mt-3">
                 <p class="p3">02</p>
                 <h2 class="text-white">Repellat Nihil</h2>
                 <p class="text-white fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam,
                     veritatis officiis esse nam cumque magnam facilis</p>
             </div>
-            <div class="enfant4">
+            <div class="enfant4 w-100 mt-lg-0 mt-3">
                 <p class="p3">03</p>
                 <h2 class="text-white">Ad ad velit qui</h2>
                 <p class="text-white fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel accusantium
@@ -140,7 +137,7 @@
             <p class="fs-3 text-white">MENU</p>
             <p class="p3 fs-1">Check Our Tasty Menu</p>
         </div>
-       
+
         <ul class="vv nav nav-pills mb-3 text-white gap-5 justify-content-center" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
                 <P class="active fs-3" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
@@ -156,21 +153,21 @@
             </li>
             <li class="nav-item" role="presentation">
                 <P class="fs-3" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled"
-                    type="button" role="tab" aria-controls="pills-disabled" aria-selected="false"
-                    disabled>Speciality</P>
+                    type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Speciality
+                </P>
             </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
                 tabindex="0">
-                <div class="d-flex">
+                <div class="az d-flex">
                     <div class="parent7">
                         <div class="enfant6 d-flex">
-                            <div class="mx-5">
+                            <div class="cx mx-5">
                                 <img class="img3 rounded-circle border border-5 border-secondary"
                                     src="./public/img/img/menu/lobster-bisque.jpg" alt="">
                             </div>
-                            <div>
+                            <div class="w-100">
                                 <p class="p7 fs-4 text-white">Lobster Bisque ..............................
                                     <span>$5.95</span>
                                 </p>
@@ -333,32 +330,32 @@
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
-            tabindex="0">
-            <div class="enfant6 d-flex">
-                <div class="mx-5">
-                    <img class="img3 rounded-circle border border-5 border-secondary"
-                        src="./public/img/img/menu/mozzarella.jpg" alt="">
+                tabindex="0">
+                <div class="enfant6 d-flex">
+                    <div class="mx-5">
+                        <img class="img3 rounded-circle border border-5 border-secondary"
+                            src="./public/img/img/menu/mozzarella.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="p7 fs-4 text-white">Mozzarella Stick .................................
+                            <span>$4.95</span>
+                        </p>
+                        <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
+                    </div>
                 </div>
-                <div>
-                    <p class="p7 fs-4 text-white">Mozzarella Stick .................................
-                        <span>$4.95</span>
-                    </p>
-                    <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
+                <div class="enfant6 d-flex">
+                    <div class="mx-5">
+                        <img class="img3 rounded-circle border border-5 border-secondary"
+                            src="./public/img/img/menu/spinach-salad.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="p7 fs-4 text-white">Spinash Salad ....................................
+                            <span>$9.95</span>
+                        </p>
+                        <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
+                    </div>
                 </div>
             </div>
-            <div class="enfant6 d-flex">
-                <div class="mx-5">
-                    <img class="img3 rounded-circle border border-5 border-secondary"
-                        src="./public/img/img/menu/spinach-salad.jpg" alt="">
-                </div>
-                <div>
-                    <p class="p7 fs-4 text-white">Spinash Salad ....................................
-                        <span>$9.95</span>
-                    </p>
-                    <p class="fs-5 text-secondary">Lorem,deren,tratoro,filed,nerada</p>
-                </div>
-            </div>
-        </div>
 
 
         </div>
@@ -369,10 +366,9 @@
 
     <section id="Gallery" class="etape0">
         <!-- Carousel avec images et texte -->
-
         <div style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(./public/img/img/events-bg.jpg); background-position:center; background-size: cover;"
             id="carouselExampleIndicators" class="carouseldiv carousel slide p-5">
-
+    
             <!-- Indicateurs (les petits ronds pour changer les slides) -->
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -386,7 +382,7 @@
                 <p class="text-white">EVENTS</p>
                 <h2 class="h22">Organize Your Events in our Restaurant</h2>
             </div>
-
+    
             <!-- Contenu du carousel -->
             <div class="carousel-inner">
                 <!-- Slide 1 -->
@@ -394,80 +390,68 @@
                     <div class="row align-items-center">
                         <!-- Image -->
                         <div class="col-md-6">
-                            <img src="./public/img/img/event-custom.jpg" class="d-block w-100"
-                                alt="Événement sur mesure">
+                            <img src="./public/img/img/event-custom.jpg" class="kk img-fluid d-block w-100" alt="Événement sur mesure">
                         </div>
                         <!-- Texte -->
                         <div class="col-md-6 text-light">
                             <h3 class="h33">Custom Parties</h3>
-                            <p class="fs-3"><b class=""><u>$99</u></b></p>
-                            <p class="pp"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi fuga
-                                    reiciendis ad sint illo et
+                            <p class="fs-3"><b>$99</b></p>
+                            <p class="pp"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi fuga reiciendis ad sint illo et
                                     temporibus perspiciatis officia id.</em></p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae.</p>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus!</p>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, ipsum! Officia magnam
-                                culpa error
-                                et voluptates voluptatum, repellendus eius nulla corrupti sequi perspiciatis ullam
-                                voluptatem!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, ipsum! Officia magnam culpa error
+                                et voluptates voluptatum, repellendus eius nulla corrupti sequi perspiciatis ullam voluptatem!</p>
                         </div>
                     </div>
                 </div>
-
+    
                 <!-- Slide 2 -->
                 <div class="carousel-item">
                     <div class="row align-items-center">
                         <!-- Image -->
                         <div class="col-md-6">
-                            <img src="./public/img/img/event-private.jpg" class="d-block w-100" alt="Événements privés">
+                            <img src="./public/img/img/event-private.jpg" class="img-fluid d-block w-100" alt="Événements privés">
                         </div>
                         <!-- Texte -->
                         <div class="col-md-6 text-light">
                             <h3 class="h33">Événements privés</h3>
                             <p class="fs-3"><b>$290</b></p>
-                            <p class="pp"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi fuga
-                                    reiciendis ad sint illo et
+                            <p class="pp"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi fuga reiciendis ad sint illo et
                                     temporibus perspiciatis officia id.</em></p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae.</p>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus!</p>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, ipsum! Officia magnam
-                                culpa error
-                                et voluptates voluptatum, repellendus eius nulla corrupti sequi perspiciatis ullam
-                                voluptatem!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, ipsum! Officia magnam culpa error
+                                et voluptates voluptatum, repellendus eius nulla corrupti sequi perspiciatis ullam voluptatem!</p>
                         </div>
                     </div>
                 </div>
-
+    
                 <!-- Slide 3 -->
                 <div class="carousel-item">
                     <div class="row align-items-center">
                         <!-- Image -->
                         <div class="col-md-6">
-                            <img src="./public/img/img/event-birthday.jpg" class="d-block w-100"
-                                alt="Fêtes d'anniversaire">
+                            <img src="./public/img/img/event-birthday.jpg" class="img-fluid d-block w-100" alt="Fêtes d'anniversaire">
                         </div>
                         <!-- Texte -->
                         <div class="col-md-6 text-light">
                             <h3 class="h33">Fêtes d'anniversaire</h3>
                             <p class="fs-3"><b>$189</b></p>
-                            <p class="pp"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi fuga
-                                    reiciendis ad sint illo et
+                            <p class="pp"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi fuga reiciendis ad sint illo et
                                     temporibus perspiciatis officia id.</em></p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae.</p>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus!</p>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, ipsum! Officia magnam
-                                culpa error
-                                et voluptates voluptatum, repellendus eius nulla corrupti sequi perspiciatis ullam
-                                voluptatem!</p>
-
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, ipsum! Officia magnam culpa error
+                                et voluptates voluptatum, repellendus eius nulla corrupti sequi perspiciatis ullam voluptatem!</p>
                         </div>
                     </div>
                 </div>
             </div>
-
+    
             <!-- Boutons précédent/suivant -->
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="prev">
@@ -481,6 +465,7 @@
             </button>
         </div>
     </section>
+    
 
 
     <section id="Chef" class="etape6">
@@ -490,30 +475,30 @@
                 <p class="p3">Book a Table</p>
             </div>
         </div>
-        <div class="parent11 d-flex justify-content-around">
-            <div class="enfant12">
-                <input type=" text" placeholder="Your Name">
+        <div class="parent11 mx-5 row gap-3">
+            <div class="enfant12 col p-0">
+                <input type=" text" placeholder="Your Name" class="w-100">
             </div>
-            <div class="enfant12">
-                <input type=" email" placeholder="Your Email">
+            <div class="enfant12 col p-0">
+                <input type=" email" placeholder="Your Email" class="w-100">
             </div>
-            <div class="enfant12">
-                <input type=" tel" placeholder="Your phone">
-            </div>
-        </div>
-        <div class="parent11 d-flex justify-content-around">
-            <div class="enfant12">
-                <input type=" date" placeholder="Date">
-            </div>
-            <div class="enfant12">
-                <input type=" time" placeholder="Time">
-            </div>
-            <div class="enfant12">
-                <input type=" number" placeholder="# of people">
+            <div class="enfant12 col p-0">
+                <input type=" tel" placeholder="Your phone" class="w-100">
             </div>
         </div>
-        <div class="d-flex justify-content-center">
-            <textarea name="" id="" placeholder="Message"></textarea>
+        <div class="parent11 mt-3 mx-5 row gap-3">
+            <div class="enfant12 col p-0">
+                <input type=" date" placeholder="Date" class="w-100">
+            </div>
+            <div class="enfant12 col p-0">
+                <input type=" time" placeholder="Time" class="w-100">
+            </div>
+            <div class="enfant12 col p-0">
+                <input type=" number" placeholder="# of people" class="w-100">
+            </div>
+        </div>
+        <div class="row mx-5 mt-3">
+            <textarea name="" id="" placeholder="Message" class="w-100"></textarea>
         </div>
 
     </section>
@@ -534,8 +519,8 @@
                     <img class="border border-3 border-secondary" src="./public/img/img/gallery/gallery-2.jpg" alt="">
                 </div>
                 <div class="enfant13">
-              
-              
+
+
                     <img class="border border-3 border-secondary" src="./public/img/img/gallery/gallery-3.jpg" alt="">
                 </div>
                 <div class="enfant13">
@@ -557,24 +542,17 @@
             </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
     </section>
+
+
+
     <section class="etape8">
-        <div class="parent13">
+        <div class="parent30 d-flex flex-column">
             <p class="text-white">CHEFS</p>
             <p class="p3 fs-1">Our Proffesional Chefs</p>
         </div>
-        <div class="parent14 d-flex justify-content-evenly container">
-            <div class="cards">
+        <div class="parent14 d-flex gap-3 mx-5">
+            <div class="cards w-100">
                 <img class="cards-img" src="./public/img/img/chefs/chefs-1.jpg" alt="">
                 <div class="cards-body d-flex justify-content-end align-items-center">
                     <h3 class="cards-title fs-4">Walter White</h3>
@@ -584,12 +562,12 @@
                         <i class="bi bi-facebook"></i>
                         <i class="bi bi-instagram"></i>
                         <i class="bi bi-linkedin"></i>
-                        
+
                     </div>
-                    
+
                 </div>
             </div>
-            <div class="cards">
+            <div class="cards w-100">
                 <img class="imgb" src="./public/img/img/chefs/chefs-2.jpg" alt="">
                 <div class="cards-body d-flex justify-content-end align-items-center">
                     <h3 class="cards-title fs-4">Sarah Jonhson</h3>
@@ -599,12 +577,12 @@
                         <i class="bi bi-facebook"></i>
                         <i class="bi bi-instagram"></i>
                         <i class="bi bi-linkedin"></i>
-                        
+
                     </div>
-                    
+
                 </div>
             </div>
-            <div class="cards">
+            <div class="cards w-100">
                 <img class="imgb" src="./public/img/img/chefs/chefs-3.jpg" alt="">
                 <div class="cards-body d-flex justify-content-end align-items-center">
                     <h4 class="cards-title fs-4">William Anderson</h4>
@@ -614,18 +592,23 @@
                         <i class="bi bi-facebook"></i>
                         <i class="bi bi-instagram"></i>
                         <i class="bi bi-linkedin"></i>
-                        
+
                     </div>
-                   
+
                 </div>
             </div>
         </div>
-        <div class="parent13">
+
+    </section>
+
+
+
+    <section class="etape9">
+        <div class="parent31 d-flex flex-column">
             <p class="text-white">CONTACT</p>
             <p class="p3 fs-1">Contact Us</p>
         </div>
-    </section>
-    <section class="etape9">
+
         <div class="parent15">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18906.129712753736!2d6.722624160288201!3d60.12672284414915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463e997b1b6fc09d%3A0x6ee05405ec78a692!2sJ%C4%99zyk%20trola!5e0!3m2!1spl!2spl!4v1672239918130!5m2!1spl!2spl"
@@ -635,10 +618,10 @@
         </div>
     </section>
     <section class="etape10">
-        <div class="Gparent16 d-flex">
+        <div class="Gparent16 d-flex mx-auto">
 
-            <div class="parent16">
-                <div class="card mb-3 text-white" style="max-width: 540px;">
+            <div class="parent16 w-50">
+                <div class="card mb-3 text-white bg-transparent border-0">
                     <div class="parent17 row g-0">
                         <div class="col-md-2">
                             <i class="fs-1 bi bi-geo-alt"></i>
@@ -652,7 +635,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3 text-white" style="max-width: 540px;">
+                <div class="card mb-3 text-white bg-transparent border-0">
                     <div class="parent17 row g-0">
                         <div class="col-md-2">
                             <i class="fs-1 bi bi-geo-alt"></i>
@@ -666,7 +649,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3 text-white" style="max-width: 540px;">
+                <div class="card mb-3 text-white bg-transparent border-0">
                     <div class="parent17 row g-0">
                         <div class="col-md-2">
                             <i class="fs-1 bi bi-geo-alt"></i>
@@ -680,7 +663,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3 text-white" style="max-width: 540px;">
+                <div class="card mb-3 text-white bg-transparent border-0">
                     <div class="parent17 row g-0">
                         <div class="col-md-2">
                             <i class="fs-1 bi bi-geo-alt"></i>
@@ -695,29 +678,30 @@
                     </div>
                 </div>
             </div>
-            <div class="parent18 d-flex flex-column justify-content-center">
-                <div class="enfant18">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your Email">
+            <div class="parent18 w-50">
+                <div class="enfant18 row mx-0 gap-3 mt-5">
+                    <input type="text" placeholder="Your Name" class="col">
+                    <input type="email" placeholder="Your Email" class="col">
                 </div>
                 <div>
-                    <input class="inp1" type="text" placeholder="Subject">
+                    <input class="w-100 my-3" type="text" placeholder="Subject">
                 </div>
                 <div>
-                    <textarea class="texA" name="" id="" placeholder="Message"></textarea>
+                    <textarea class="w-100" name="" id="" placeholder="Message"></textarea>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btnf btn btn-outline-warning rounded-pill text-white">SEND MESSAGE</button>
                 </div>
             </div>
-
         </div>
-        <div class="d-flex justify-content-center">
-            <button type="button" class="btnf btn btn-outline-warning rounded-pill text-white ">SEND MESSAGE</button>
-        </div>
+        <!-- <div class="bb d-flex justify-content-center"> -->
+        <!-- </div> -->
     </section>
 
     <section class="etape11">
         <div class="Gparent19 d-flex">
-            <div class="parent19 d-flex justify-content-around">
-                <div class="xx d-flex flex-column align-items-start mx-5">
+            <div class="parent19 row">
+                <div class="xx d-flex flex-column align-items-start mx-5 col gap-3">
                     <p class="fs-1 text-white ">CBIENBON</p>
                     <P class="fs-6 text-white ">A108 Adam Street <br> NY 535022, USA</P>
                     <p class="fs-6 text-white"><span>Phone:</span> +1 5589 55488 55 <br> <span>Email:</span>
@@ -731,7 +715,7 @@
 
                     </div>
                 </div>
-                <div class="parent21">
+                <div class="parent21 col">
                     <div class="mx-5">
                         <h3 class="text-white fs-2">Useful Links</h3>
                         <p class="text-white fs-6"><span>></span> Home</p>
@@ -741,7 +725,7 @@
                         <p class="text-white fs-6"><span>></span> Privacy policy</p>
                     </div>
                 </div>
-                <div class="parent21">
+                <div class="parent21 col">
                     <div class="mx-5">
                         <h3 class="text-white fs-2">Our Services</h3>
                         <p class="text-white fs-6"><span>></span> Web Design</p>
@@ -751,16 +735,16 @@
                         <p class="text-white fs-6"><span>></span> Graphic Design</p>
                     </div>
                 </div>
-                <div class="parent22 py-3 px-5">
+                <div class="parent22 col">
                     <div class="ss">
                         <h3 class="text-white fs-2 py-2">Our Newsletter</h3>
                         <p class="text-white fs-6 py-2">Tamen quem nulla quae legam multos aute <br> sint culpa legam
                             noster magna</p>
                     </div>
-                    <div class="d-flex justify-content-center">
-                        <input class="rounded-pill" type="text">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <input class="ip rounded-pill" type="text">
                         <button type="button"
-                            class="btnf1 btn btn-outline-warning rounded-pill text-white ">SUBSCRIBE</button>
+                            class="btnf1 btn btn-outline-warning rounded-pill text-white mt-0">SUBSCRIBE</button>
                     </div>
                 </div>
 

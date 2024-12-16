@@ -17,14 +17,14 @@ a
     font-size: 100px 
 .bi
     z-index: 50
-    position: relative       
+    position: relative
 
 h1
-    font-size: 5rem   
+    font-size: 5rem
     font-weight: 700
     z-index: 4
 .h2-1
-    font-size: 2.5rem    
+    font-size: 2.5rem
 span
     color: #cda45d
 .btn
@@ -33,30 +33,29 @@ span
     &:hover
         background-color: #cda45d
         border-color: #cda45d
-    
+
 .fils
     width: 100%
     display: flex
-    flex-direction: column 
-    position: relative 
+    flex-direction: column
+    position: relative
     top: 200px
     left: 100px
     z-index: 3
 .btn
-    width: 180px    
+    width: 180px
     height: 50px
     margin-top: 20px
 .btn0
     width: 220px
-    height: 50px    
+    height: 50px
 .btn2
-    width: 220px 
-    margin-bottom: 20px   
+    width: 220px
+    margin-bottom: 20px
 .modal-backdrop
-    display: none    
+    display: none
 
-
-.video-play-button 
+.video-play-button
     position: relative
     z-index: 10
     bottom: 80px
@@ -70,7 +69,7 @@ span
     border-radius: 50%
     padding: 9px 24px 18px 28px
 
-.video-play-button:before 
+.video-play-button:before
     content: ""
     position: absolute
     z-index: 0
@@ -84,8 +83,7 @@ span
     border-radius: 50%
     animation: pulse-border 1500ms ease-out infinite
 
-
-.video-play-button:after 
+.video-play-button:after
     content: ""
     position: absolute
     z-index: 11
@@ -100,9 +98,7 @@ span
     transition: all 200ms
     border: solid 4px $beige
 
-
-
-.video-play-button span 
+.video-play-button span
     display: block
     position: relative
     z-index: 3
@@ -112,44 +108,92 @@ span
     border-top: 10px solid transparent
     border-bottom: 12px solid transparent
 
+.cc-navbar
+    background-color: rgba(0, 0, 0, 0.55)
+    display: flex
+    align-items: center
+    justify-content: center
 
-@keyframes pulse-border 
-  0% 
-    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1)
-    opacity: 1
-  
-  100% 
-    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5)
-    opacity: 0
+.qq
+    display: flex
+    justify-content: space-around   
+    align-items: center
+    gap: 30px
+    color: white
 
-@media (max-width:768px) 
+
+
+@keyframes pulse-border
+    0%
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1)
+        opacity: 1
+
+    100%
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5)
+        opacity: 0
+
+@media (max-width:767px)
     .etape1
-        width: 100% 
+        width: 100% !important
     nav
         display: flex
-        flex-direction: column 
+        flex-direction: column
         margin: 0
         gap: 0
         position: relative
     a
         display: flex
-        font-size: xx-small 
-        position: relative 
-        right: 30px    
-    .a1 
-        font-size: medium    
+        font-size: xx-small
+        position: relative
+        right: 30px
+    .a1
+        font-size: 20px !important
     .parent1
         display: flex
         flex-direction: column
     .btn
-        width: 220px    
+        width: 120px
         height: 50px
         margin-top: 20px
-        position: relative 
-        bottom: 20px  
+        position: relative
+        bottom: 20px
+        font-size: 15px !important
+    .ll
+        font-size: small !important
+
     .fils
-        width: 100%
+        width: 100% !important
         display: flex
-        justify-content: center
-        font-size: 20px      
+        margin: 0
+        padding: 0
+        top: 100px
+        left: 30px
+        font-size: 20px !important
+    
+    h1
+        width: 100%
+        font-size: 30px
+        margin: 0
+        padding: 0
+    .h2-1
+        font-size: 20px    
+
+    .video-play-button
+        bottom: 0px
+        left: 50px   
+        top: 100px 
+
+
+@media (min-width:767px) and (max-width:1024px) 
+   
+    .etape1
+        height: 700px
+       
+       
+    .video-play-button
+        bottom: 50px !important
+        left: 100px !important 
+        top: 50px  !important
+
+
 
