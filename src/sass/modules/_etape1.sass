@@ -1,3 +1,21 @@
+.etape1 
+    background-image: url('../img/img/hero-bg.jpg')
+    
+    background-size: cover
+    position: relative
+    background-position: center
+    height: 100vh
+    width: 100%
+    &::before 
+        content: ""
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background-color: rgba(0,0 ,0 ,0.5 )
+        z-index: 1
+
 nav
     width: 100%
     height: 120px
@@ -59,7 +77,7 @@ span
     position: relative
     z-index: 10
     bottom: 80px
-    left: 700px
+    left: 50%
     transform: translateX(-50%) translateY(-50%)
     box-sizing: content-box
     display: block
@@ -194,6 +212,13 @@ span
         bottom: 50px !important
         left: 100px !important 
         top: 50px  !important
+
+    h1
+        width: 100%
+        font-size: 30px
+    
+    .h2-1
+        font-size: 20px      
 
 
 
