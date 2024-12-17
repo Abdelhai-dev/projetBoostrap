@@ -1,12 +1,11 @@
-.etape1 
+.etape1
     background-image: url('../img/img/hero-bg.jpg')
-    
     background-size: cover
     position: relative
     background-position: center
     height: 100vh
     width: 100%
-    &::before 
+    &::before
         content: ""
         position: absolute
         top: 0
@@ -32,11 +31,10 @@ a
     &:hover
         color: #cda45d
 .a1
-    font-size: 100px 
+    font-size: 100px
 .bi
     z-index: 50
     position: relative
-
 h1
     font-size: 5rem
     font-weight: 700
@@ -58,7 +56,6 @@ span
     flex-direction: column
     position: relative
     top: 200px
-    left: 100px
     z-index: 3
 .btn
     width: 180px
@@ -73,58 +70,65 @@ span
 .modal-backdrop
     display: none
 
-.video-play-button
-    position: relative
-    z-index: 10
-    bottom: 80px
-    left: 50%
-    transform: translateX(-50%) translateY(-50%)
-    box-sizing: content-box
-    display: block
-    width: 15px
-    height: 12px
-    background: $beige
+.btnVideo
+    height: 80px !important
+    width: 80px !important
     border-radius: 50%
-    padding: 9px 24px 18px 28px
+    border: none
+    background-color: $beige
 
-.video-play-button:before
-    content: ""
-    position: absolute
-    z-index: 0
-    left: 50%
-    top: 50%
-    transform: translateX(-50%) translateY(-50%)
-    display: block
-    width: 75px
-    height: 75px
-    background: $beige
-    border-radius: 50%
-    animation: pulse-border 1500ms ease-out infinite
+// .video-play-button
+//     position: relative
+//     z-index: 10
+//     bottom: 80px
+//     left: 50%
+//     transform: translateX(-50%) translateY(-50%)
+//     box-sizing: content-box
+//     display: block
+//     width: 15px
+//     height: 12px
+//     background: $beige
+//     border-radius: 50%
+//     padding: 9px 24px 18px 28px
 
-.video-play-button:after
-    content: ""
-    position: absolute
-    z-index: 11
-    left: 50%
-    top: 50%
-    transform: translateX(-50%) translateY(-50%)
-    display: block
-    width: 70px
-    height: 70px
-    background: $beige
-    border-radius: 50%
-    transition: all 200ms
-    border: solid 4px $beige
+// .video-play-button:before
+//     content: ""
+//     position: absolute
+//     z-index: 0
+//     left: 50%
+//     top: 50%
+//     transform: translateX(-50%) translateY(-50%)
+//     display: block
+//     width: 75px
+//     height: 75px
+//     background: $beige
+//     border-radius: 50%
+//     animation: pulse-border 1500ms ease-out infinite
 
-.video-play-button span
-    display: block
-    position: relative
-    z-index: 3
-    width: 0
-    height: 0
-    border-left: 18px solid #fff
-    border-top: 10px solid transparent
-    border-bottom: 12px solid transparent
+// .video-play-button:after
+//     content: ""
+//     position: absolute
+//     z-index: 11
+//     left: 50%
+//     top: 50%
+//     transform: translateX(-50%) translateY(-50%)
+//     display: block
+//     width: 70px
+//     height: 70px
+//     background: $beige
+//     border-radius: 50%
+//     transition: all 200ms
+//     border: solid 4px $beige
+
+// .video-play-button span
+//     display: block
+//     position: relative
+//     z-index: 3
+//     width: 0
+//     height: 0
+//     border-left: 18px solid #fff
+//     border-top: 10px solid transparent
+//     border-bottom: 12px solid transparent
 
 .cc-navbar
     background-color: rgba(0, 0, 0, 0.55)
@@ -134,12 +138,10 @@ span
 
 .qq
     display: flex
-    justify-content: space-around   
+    justify-content: space-around
     align-items: center
     gap: 30px
     color: white
-
-
 
 @keyframes pulse-border
     0%
@@ -178,6 +180,7 @@ span
         font-size: 15px !important
     .ll
         font-size: small !important
+        margin-right: 0
 
     .fils
         width: 100% !important
@@ -185,40 +188,36 @@ span
         margin: 0
         padding: 0
         top: 100px
-        left: 30px
+        // left: 30px
+        text-align: center
         font-size: 20px !important
-    
+
     h1
-        width: 100%
+        width: 100% !important
         font-size: 30px
         margin: 0
         padding: 0
     .h2-1
-        font-size: 20px    
+        font-size: 20px
 
     .video-play-button
         bottom: 0px
-        left: 50px   
-        top: 100px 
+        left: 50px
+        top: 100px
 
+@media (min-width:767px) and (max-width:1024px)
 
-@media (min-width:767px) and (max-width:1024px) 
-   
     .etape1
         height: 700px
-       
-       
+
     .video-play-button
         bottom: 50px !important
-        left: 100px !important 
-        top: 50px  !important
+        left: 100px !important
+        top: 50px !important
 
     h1
-        width: 100%
+        width: 100% !important
         font-size: 30px
-    
+
     .h2-1
-        font-size: 20px      
-
-
-
+        font-size: 20px

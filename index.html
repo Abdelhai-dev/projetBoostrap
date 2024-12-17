@@ -13,7 +13,33 @@
 <body>
     <section id="home" class="etape1">
         <div class="parent1 d-flex text-white">
-            <nav class="d-flex align-items-center">
+            <nav class="maNav navbar navbar-expand-lg bg-dark bg-opacity-75 fixed-top">
+                <div class="container-fluid">
+                    <a class="ms-4 text-white navbar-brand" href="#">CBIENBON</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="justify-content-center collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="text-white nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="text-white nav-link" href="#About">About</a>
+                            <a class="text-white nav-link" href="#Menu">Menu</a>
+                            <a class="text-white nav-link" href="#Events">Events</a>
+                            <a class="text-white nav-link" href="#Gallery">Gallery</a>
+                            <a class="text-white nav-link hover-nav" href="#Chefs">Chefs</a>
+                            <a class="text-white nav-link hover-nav" href="#Contact">Contact</a>
+                        </div>
+                       
+                    </div>
+                    <div>
+                        <button class="btn btn-outline-warning rounded-pill text-white">Book a Table</button>
+                    </div>
+
+                </div>
+            </nav>
+            <!-- <nav class="d-flex align-items-center">
                 <div>
                     <a class="a1 container text-white fs-1 text-decoration-none" href="#">CBIENBON</a>
                 </div>
@@ -29,30 +55,39 @@
                 <div class="btn1">
                     <button type="button" class="btn2 btn btn-outline-warning rounded-pill text-white fs-4">BOOK A TABLE</button>
                 </div>
-            </nav>
+            </nav> -->
         </div>
-    
-        <div class="fils">
+
+        <div class="fils px-5">
             <div class="ll text-white">
                 <h1>Welcome to <span>CBIENBON</span></h1>
                 <h2 class="h2-1">Delivering great food for more than 18 years!</h2>
             </div>
-            <div class="d-flex justify-content-start">
-                <div>
-                    <button type="button" class="btn btn-outline-warning rounded-pill text-white">OUR MENU</button>
+            <div class="d-flex justify-content-start flex-column flex-lg-row justify-content-lg-between">
+                <div class="d-flex justify-content-center mt-5 gap-5">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <button type="button" class="btn btn-outline-warning rounded-pill text-white m-0">OUR MENU</button>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <button type="button" class="btn0 btn btn-outline-warning rounded-pill text-white m-0">BOOK A
+                            TABLE</button>
+                    </div>
                 </div>
-                <div>
-                    <button type="button" class="btn0 btn btn-outline-warning rounded-pill text-white">BOOK A TABLE</button>
-                </div>
-                <div class="container">
+                <!-- <div class="container d-flex justify-content-center">
                     <div class="icon-play row">
-                        <a id="play-video" class="video-play-button" href="#" data-bs-toggle="modal" data-bs-target="#videoModal">
+                        <a id="play-video" class="video-play-button" href="#" data-bs-toggle="modal"
+                            data-bs-target="#videoModal">
                             <span></span>
                         </a>
                     </div>
+                </div> -->
+                <div class="me-lg-5 mt-5 d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary btnVideo" data-bs-toggle="modal" data-bs-target="#videoModal">
+                        <i class="bi bi-play-fill"></i> 
+                      </button>
                 </div>
             </div>
-    
+
             <!-- Modal -->
             <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
@@ -74,7 +109,7 @@
             </div>
         </div>
     </section>
-    
+
 
 
     <!-- <section id="home" class="etape1">
@@ -118,7 +153,7 @@
                 </div>
     
                 Modal -->
-                <!-- <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <!-- <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -137,27 +172,27 @@
                     </div>
                 </div>
             </div> <!-- Ajouter cette fermeture de div -->
-        <!-- </div>
+    <!-- </div>
     </section>  -->
-    
+
     <section id="abouts" class="etape2">
         <div class="parent2 d-flex ">
             <div class="enfant10 text-white m-4">
                 <p class="h1-1 fs-1">Voluptatem dignissimos provided quasis corporis voluptates sit assumenda.</p>
-    
+
                 <p class="p1 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ratione obcaecati
                     quam numquam voluptates assumenda possimus aliquam officiis ipsam voluptatum!</p>
-    
+
                 <p class="fs-5"><img class="imgi" src="./public/img/img/iconmonstr-check-mark-8-24.png" alt=""> Lorem
                     ipsum dolor sit amet consectetur adipisicing elit cric</p>
-    
+
                 <p class="fs-5"><img class="imgi" src="./public/img/img/iconmonstr-check-mark-8-24.png" alt=""> Lorem,
                     ipsum dolor sit amet consectetur adipisicing elit. Rem.</p>
-    
+
                 <p class="fs-5"><img src="./public/img/img/iconmonstr-check-mark-8-24.png" alt=""> Lorem ipsum dolor sit
                     amet consectetur, adipisicing elit. Fuga voluptate sunt, doloribus ut, nesciunt aliquid aut saepe
                     culpa natus ratione nisi delectus veritatis optio ipsum.</p>
-    
+
                 <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eligendi labore nobis
                     quis. Perferendis consequatur atque commodi tempora architecto iure recusandae porro, asperiores,
                     impedit vero praesentium eius autem, deserunt explicabo!</p>
@@ -169,7 +204,7 @@
             </div>
         </div> <!-- Balise div manquante ici pour fermer 'parent2' -->
     </section>
-    
+
     <section id="menu" class="etape3">
         <div class="parent3">
             <p class="fs-3 p-5 text-white">WHY US </p>
@@ -432,7 +467,7 @@
         <!-- Carousel avec images et texte -->
         <div style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(./public/img/img/events-bg.jpg); background-position:center; background-size: cover;"
             id="carouselExampleIndicators" class="carouseldiv carousel slide p-5">
-    
+
             <!-- Indicateurs (les petits ronds pour changer les slides) -->
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -446,7 +481,7 @@
                 <p class="text-white">EVENTS</p>
                 <h2 class="h22">Organize Your Events in our Restaurant</h2>
             </div>
-    
+
             <!-- Contenu du carousel -->
             <div class="carousel-inner">
                 <!-- Slide 1 -->
@@ -454,68 +489,80 @@
                     <div class="row align-items-center">
                         <!-- Image -->
                         <div class="col-md-6">
-                            <img src="./public/img/img/event-custom.jpg" class="kk img-fluid d-block w-100" alt="Événement sur mesure">
+                            <img src="./public/img/img/event-custom.jpg" class="kk img-fluid d-block w-100"
+                                alt="Événement sur mesure">
                         </div>
                         <!-- Texte -->
                         <div class="col-md-6 text-light">
                             <h3 class="h33">Custom Parties</h3>
                             <p class="fs-3"><b>$99</b></p>
-                            <p class="pp"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi fuga reiciendis ad sint illo et
+                            <p class="pp"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi fuga
+                                    reiciendis ad sint illo et
                                     temporibus perspiciatis officia id.</em></p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae.</p>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus!</p>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, ipsum! Officia magnam culpa error
-                                et voluptates voluptatum, repellendus eius nulla corrupti sequi perspiciatis ullam voluptatem!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, ipsum! Officia magnam
+                                culpa error
+                                et voluptates voluptatum, repellendus eius nulla corrupti sequi perspiciatis ullam
+                                voluptatem!</p>
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- Slide 2 -->
                 <div class="carousel-item">
                     <div class="row align-items-center">
                         <!-- Image -->
                         <div class="col-md-6">
-                            <img src="./public/img/img/event-private.jpg" class="img-fluid d-block w-100" alt="Événements privés">
+                            <img src="./public/img/img/event-private.jpg" class="img-fluid d-block w-100"
+                                alt="Événements privés">
                         </div>
                         <!-- Texte -->
                         <div class="col-md-6 text-light">
                             <h3 class="h33">Événements privés</h3>
                             <p class="fs-3"><b>$290</b></p>
-                            <p class="pp"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi fuga reiciendis ad sint illo et
+                            <p class="pp"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi fuga
+                                    reiciendis ad sint illo et
                                     temporibus perspiciatis officia id.</em></p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae.</p>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus!</p>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, ipsum! Officia magnam culpa error
-                                et voluptates voluptatum, repellendus eius nulla corrupti sequi perspiciatis ullam voluptatem!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, ipsum! Officia magnam
+                                culpa error
+                                et voluptates voluptatum, repellendus eius nulla corrupti sequi perspiciatis ullam
+                                voluptatem!</p>
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- Slide 3 -->
                 <div class="carousel-item">
                     <div class="row align-items-center">
                         <!-- Image -->
                         <div class="col-md-6">
-                            <img src="./public/img/img/event-birthday.jpg" class="img-fluid d-block w-100" alt="Fêtes d'anniversaire">
+                            <img src="./public/img/img/event-birthday.jpg" class="img-fluid d-block w-100"
+                                alt="Fêtes d'anniversaire">
                         </div>
                         <!-- Texte -->
                         <div class="col-md-6 text-light">
                             <h3 class="h33">Fêtes d'anniversaire</h3>
                             <p class="fs-3"><b>$189</b></p>
-                            <p class="pp"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi fuga reiciendis ad sint illo et
+                            <p class="pp"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi fuga
+                                    reiciendis ad sint illo et
                                     temporibus perspiciatis officia id.</em></p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae.</p>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus!</p>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, ipsum! Officia magnam culpa error
-                                et voluptates voluptatum, repellendus eius nulla corrupti sequi perspiciatis ullam voluptatem!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, ipsum! Officia magnam
+                                culpa error
+                                et voluptates voluptatum, repellendus eius nulla corrupti sequi perspiciatis ullam
+                                voluptatem!</p>
                         </div>
                     </div>
                 </div>
             </div>
-    
+
             <!-- Boutons précédent/suivant -->
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="prev">
@@ -529,7 +576,7 @@
             </button>
         </div>
     </section>
-    
+
 
 
     <section id="Chef" class="etape6">
@@ -754,7 +801,8 @@
                     <textarea class="w-100" name="" id="" placeholder="Message"></textarea>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <button type="button" class="btnf btn btn-outline-warning rounded-pill text-white">SEND MESSAGE</button>
+                    <button type="button" class="btnf btn btn-outline-warning rounded-pill text-white">SEND
+                        MESSAGE</button>
                 </div>
             </div>
         </div>
